@@ -1,0 +1,23 @@
+citHeader("To cite tsHydroV2 in publications, please cite the underlying methods paper:")
+
+bibentry(
+    bibtype  = "Article",
+    title    = "Validation of CryoSat-2 SAR mode based lake levels",
+    author   = c(
+        person("Karina",     "Nielsen"),
+        person("Lars",       "Stenseng"),
+        person("Ole B.",     "Andersen"),
+        person("Heidi",      "Villadsen"),
+        person("Per",        "Knudsen")
+    ),
+    journal  = "Remote Sensing of Environment",
+    year     = 2015,
+    volume   = 171,
+    pages    = "162--170",
+
+    textVersion = paste0(
+        "Nielsen, K., Stenseng, L., Andersen, O. B., Villadsen, H., & Knudsen, P. ",
+        "(2015). Validation of CryoSat-2 SAR mode based lake levels. ",
+        "Remote Sensing of Environment, 171, 162-170."
+    )
+)

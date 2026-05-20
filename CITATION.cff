@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the underlying methods paper:"
+type: software
+title: "tsHydroV2: Reconstruct water level time series from satellite altimetry data"
+version: "0.0.0.9000"
+date-released: "2026-05-20"
+license: BSD-2-Clause
+repository-code: "https://github.com/cavios/tsHydroV2"
+url: "https://github.com/cavios/tsHydroV2"
+authors:
+  - family-names: Nielsen
+    given-names: Karina
+    email: karni@space.dtu.dk
+    affiliation: DTU Space
+preferred-citation:
+  type: article
+  title: "Validation of CryoSat-2 SAR mode based lake levels"
+  authors:
+    - family-names: Nielsen
+      given-names: Karina
+    - family-names: Stenseng
+      given-names: Lars
+    - family-names: Andersen
+      given-names: "Ole B."
+    - family-names: Villadsen
+      given-names: Heidi
+    - family-names: Knudsen
+      given-names: Per
+  journal: "Remote Sensing of Environment"
+  year: 2015
+  volume: 171
+  start: 162
+  end: 170

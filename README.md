@@ -188,6 +188,16 @@ often too large; for noisy lake data, try `init.logsigmarw = -2` and
   `[<-` (required so AD dispatch survives byte-compilation in package
   context), and `dnorm` is called as `RTMB::dnorm` for the same reason.
 
+## Citation
+
+If you use this package, please cite the underlying methods paper:
+
+> Nielsen, K., Stenseng, L., Andersen, O. B., Villadsen, H., & Knudsen, P.
+> (2015). Validation of CryoSat-2 SAR mode based lake levels.
+> *Remote Sensing of Environment*, **171**, 162–170.
+
+Or in R: `citation("tsHydroV2")`.
+
 ## License
 
 BSD-2-Clause. See [`LICENSE`](LICENSE).
