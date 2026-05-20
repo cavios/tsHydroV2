@@ -1,5 +1,11 @@
 # tsHydroV2
 
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/cavios/tsHydroV2/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/cavios/tsHydroV2/actions/workflows/R-CMD-check.yaml)
+[![License: BSD-2-Clause](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](LICENSE)
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.rse.2015.10.023-blue.svg)](https://doi.org/10.1016/j.rse.2015.10.023)
+<!-- badges: end -->
+
 R package that reconstructs water-level time series from satellite altimetry data.
 
 This is a re-implementation of [`tsHydro`](https://github.com/cavios/tshydro)
