@@ -195,6 +195,7 @@ If you use this package, please cite the underlying methods paper:
 > Nielsen, K., Stenseng, L., Andersen, O. B., Villadsen, H., & Knudsen, P.
 > (2015). Validation of CryoSat-2 SAR mode based lake levels.
 > *Remote Sensing of Environment*, **171**, 162–170.
+> [doi:10.1016/j.rse.2015.10.023](https://doi.org/10.1016/j.rse.2015.10.023)
 
 Or in R: `citation("tsHydroV2")`.
 
