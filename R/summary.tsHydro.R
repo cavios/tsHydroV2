@@ -1,15 +1,16 @@
 #' Summary of output
 #'
 #' This function presents a summary of the output
-#' @param x An object of class "tsHydro"
+#' @param object An object of class "tsHydro"
+#' @param ... Unused, for S3 consistency with [summary()].
 #' @return Summary of output
 #' @export
-summary.tsHydro <- function(x) {
-    npar    <- length(x$opt$par)
-    logLik  <- x$opt$objective
-    conv    <- x$opt$convergence == 0
-    mypar   <- as.numeric(exp(x$opt$par))
-    parnames <- sub("log", "", names(x$opt$par))
+summary.tsHydro <- function(object, ...) {
+    npar    <- length(object$opt$par)
+    logLik  <- object$opt$objective
+    conv    <- object$opt$convergence == 0
+    mypar   <- as.numeric(exp(object$opt$par))
+    parnames <- sub("log", "", names(object$opt$par))
 
     cat("\n-------------------------\n")
     cat("Summary for get.TS\n")

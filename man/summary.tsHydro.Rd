@@ -4,10 +4,12 @@
 \alias{summary.tsHydro}
 \title{Summary of output}
 \usage{
-\method{summary}{tsHydro}(x)
+\method{summary}{tsHydro}(object, ...)
 }
 \arguments{
-\item{x}{An object of class "tsHydro"}
+\item{object}{An object of class "tsHydro"}
+
+\item{...}{Unused, for S3 consistency with \code{\link[=summary]{summary()}}.}
 }
 \value{
 Summary of output

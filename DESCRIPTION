@@ -2,8 +2,7 @@ Package: tsHydroV2
 Title: Reconstruct water level time series from satellite altimetry data
 Version: 0.0.0.9000
 Authors@R:
-    person("Karina", "Nielsen", , "karni@space.dtu.dk", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Karina", "Nielsen", , "karni@space.dtu.dk", role = c("aut", "cre"))
 Description: Reconstruct water level time series from satellite altimetry data
     using a state-space model implemented with RTMB.
 License: BSD_2_clause + file LICENSE

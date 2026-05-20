@@ -1,0 +1,11 @@
+^Makefile$
+^example\.R$
+^CITATION\.cff$
+^\.github$
+^doc-update$
+^install$
+^compare.*\.R$
+^plot_.*\.R$
+^multistart\.R$
+^.*\.tar\.gz$
+^README\.Rmd$

@@ -4,10 +4,12 @@
 \alias{print.tsHydro}
 \title{Simple print  of output}
 \usage{
-\method{print}{tsHydro}(x)
+\method{print}{tsHydro}(x, ...)
 }
 \arguments{
 \item{x}{An object of class "tsHydro"}
+
+\item{...}{Unused, for S3 consistency with \code{\link[=print]{print()}}.}
 }
 \value{
 Print the objective function and state convergence
