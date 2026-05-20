@@ -1,0 +1,20 @@
+# Makefile marker files
+install
+doc-update
+
+# build artifacts
+*.tar.gz
+*.tgz
+*.zip
+
+# R session
+.Rhistory
+.Rapp.history
+.RData
+.Rproj.user/
+
+# package check output
+tsHydroV2.Rcheck/
+
+# OS noise
+.DS_Store
