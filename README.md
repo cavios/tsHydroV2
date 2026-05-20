@@ -190,4 +190,4 @@ often too large; for noisy lake data, try `init.logsigmarw = -2` and
 
 ## License
 
-GPL-3.
+BSD-2-Clause. See [`LICENSE`](LICENSE).
